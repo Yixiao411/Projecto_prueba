@@ -6,6 +6,7 @@ fun main() {
     var caracter : Char = readln().single()
     var boolean = true
 
+    //Confirmar si es un lletra o no amb ".isLetter()"
     if (caracter.isLetter()){
         boolean=true
         println(boolean)
@@ -13,5 +14,4 @@ fun main() {
         boolean=false
         println(false)
     }
-
 }

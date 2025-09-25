@@ -6,8 +6,8 @@ fun main() {
 
     //Llegeix el valor introduit
     println("Introduce el diametro: ")
-    var numero1 = scanner.nextLine().toDouble()
+    var diametrePizza = scanner.nextLine().toDouble()
 
-    //Superficie
-    println(Math.PI*((numero1/2)*(numero1/2)))
+    //Superficie de la pizza
+    println(Math.PI*((diametrePizza/2)*(diametrePizza/2)))
 }

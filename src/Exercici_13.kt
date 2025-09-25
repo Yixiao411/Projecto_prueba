@@ -6,9 +6,11 @@ fun main() {
     val scanner = Scanner(System.`in`)
 
     //Llegeix el valor introduit
-    var numero1 = scanner.nextLine().toFloat()
-    var numero2 = scanner.nextLine().toFloat()
+    print("La temperatura actual: ")
+    var temperaturaActual = scanner.nextLine().toFloat()
+    print("Quan augmenta? ")
+    var temparaturaAugmentada = scanner.nextLine().toFloat()
 
     //Temperatura
-    println("La temperatura actual es: " + (numero1 + numero2) + "º")
+    println("La temperatura actual es: " + (temperaturaActual + temparaturaAugmentada) + "º")
 }

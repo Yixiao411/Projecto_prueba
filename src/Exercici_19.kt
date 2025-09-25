@@ -5,8 +5,10 @@ fun main() {
     val scanner = Scanner(System.`in`)
 
     //Llegeix el valor introduit
+    print("Introdueix true o false: ")
     var boolean : Boolean = scanner.nextLine().toBoolean()
 
+    //cambia el boolean al contrari
     if (boolean==true){
         boolean = false
         println(boolean)

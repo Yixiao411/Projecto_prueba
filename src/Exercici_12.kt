@@ -5,8 +5,9 @@ fun main() {
     val scanner = Scanner(System.`in`)
 
     //Llegeix el valor introduit
-    var numero1 = scanner.nextLine().toFloat()
+    print("Introdueix la temperatua en Celcius: ")
+    var tempCelcius = scanner.nextLine().toFloat()
 
-    //Temperatura
-    println((numero1*1.8)+32)
+    //Convercio de temperatura
+    println("La temperatura en Fahrenehit és: " + (tempCelcius*1.8)+32)
 }

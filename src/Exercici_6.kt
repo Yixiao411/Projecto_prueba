@@ -7,11 +7,19 @@ fun main() {
     //executa scanner
     val scan = Scanner(System.`in`)
 
-    //llegir el valor
-    var numero1 : Int = scan.nextInt()
-    var numero2 : Int = scan.nextInt()
-    var numero3 : Int = scan.nextInt()
+    //llegir els alumnes de les clases
+    var alumnoClase1 : Int = scan.nextInt()
+    var alumnoClase2 : Int = scan.nextInt()
+    var alumnoClase3 : Int = scan.nextInt()
+
+    //Calcula els pupitres de cada clase
+    var pupitresClase1 : Int = alumnoClase1/2 + alumnoClase1%2
+    var pupitresClase2 : Int = alumnoClase2/2 + alumnoClase2%2
+    var pupitresClase3 : Int = alumnoClase3/2 + alumnoClase3%2
+
+    //Calcula els pupitres que necesitem en total
+    var numPupitres : Int = pupitresClase1 + pupitresClase2 + pupitresClase3
 
     //imprimir taules necessaris
-    println((numero1+numero2+numero3)/2)
+    println(numPupitres)
 }

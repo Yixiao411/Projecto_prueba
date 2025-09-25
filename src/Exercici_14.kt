@@ -6,9 +6,11 @@ fun main() {
     val scanner = Scanner(System.`in`)
 
     //Llegeix el valor introduit
-    var numero1 = scanner.nextLine().toFloat()
-    var numero2 = scanner.nextLine().toFloat()
+    print("El preu del sopar: ")
+    var preuSopar = scanner.nextLine().toFloat()
+    print("Quantitat de persones: ")
+    var numPersones = scanner.nextLine().toFloat()
 
     //Valor final
-    println(numero2 / numero1)
+    println(numPersones / preuSopar)
 }

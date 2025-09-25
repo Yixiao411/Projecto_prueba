@@ -5,6 +5,7 @@ fun main() {
     val scanner = Scanner(System.`in`)
 
     //Llegeix el valor introduit
+    print("Introdueix el numero: ")
     var numero1 = scanner.nextLine().toFloat()
 
     //sortida Float

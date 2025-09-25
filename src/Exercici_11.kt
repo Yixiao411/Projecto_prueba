@@ -6,10 +6,13 @@ fun main() {
     val scanner = Scanner(System.`in`)
 
     //Llegeix el valor introduit
-    var numero1 = scanner.nextLine().toFloat()
-    var numero2 = scanner.nextLine().toFloat()
-    var numero3 = scanner.nextLine().toFloat()
+    print("Introduix amplada de la sala: ")
+    var ampladaSala = scanner.nextLine().toFloat()
+    print("Introduix altrura de la sala: ")
+    var alturaSala = scanner.nextLine().toFloat()
+    print("Introduix profunditat de la sala: ")
+    var profunditatSala = scanner.nextLine().toFloat()
 
-    //Vloumen
-    println(numero1*numero2*numero3)
+    //Calcula el volum
+    println(ampladaSala*alturaSala*profunditatSala)
 }

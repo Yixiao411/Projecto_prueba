@@ -5,10 +5,13 @@ fun main() {
     val scanner = Scanner(System.`in`)
 
     //Llegeix el valor introduit
+    print("Introdueix el primer numero: ")
     var numero1 : Int = scanner.nextLine().toInt()
+    print("Introdueix el segon numero: ")
     var numero2 : Int = scanner.nextLine().toInt()
     var boolean : Boolean = true
 
+    //Comparacio de dos numeros
     if (numero1>numero2){
         println(boolean)
     }else{

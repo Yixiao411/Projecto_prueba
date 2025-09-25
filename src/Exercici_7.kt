@@ -8,7 +8,7 @@ fun main() {
     var numero1 = scanner.nextLine().toInt()
 
     //Suma el valor
-    numero1++
+    numero1 = numero1+1
 
     //Mostra el valor
     println("Després ve el " + numero1)

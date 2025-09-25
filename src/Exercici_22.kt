@@ -11,8 +11,9 @@ fun main() {
     var i  = 0
     var boolean = true
 
+    //
     while (i < 4){
-        i++
+        i = i + 1
         if (numeroMax<numero1){
             numeroMax = numero1
         }

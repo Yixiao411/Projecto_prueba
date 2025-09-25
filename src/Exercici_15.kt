@@ -5,13 +5,16 @@ fun main() {
     val scanner = Scanner(System.`in`)
 
     //Llegeix el valor introduit
-    var numero1 = scanner.nextLine().toInt()
-    if (numero1<59){
-        numero1++
+    print("Introdueix els segons: ")
+    var segonsIntroduit = scanner.nextLine().toInt()
+
+    //Reinicia el contador
+    if (segonsIntroduit<59){
+        segonsIntroduit++
     }else{
-        numero1 = 0
+        segonsIntroduit = 0
     }
 
-    //segundo
-    println(numero1)
+    //Segons actuals
+    println(segonsIntroduit)
 }

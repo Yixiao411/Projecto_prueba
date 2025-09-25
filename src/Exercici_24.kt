@@ -6,6 +6,7 @@ fun main() {
     var num = readln()
     var boolean = true
 
+    //Confirmar si es un numero o no amb ".isDigit()"
     if (num.single().isDigit()){
         boolean=true
         println(boolean)
@@ -13,5 +14,4 @@ fun main() {
         boolean=false
         println(false)
     }
-
 }
