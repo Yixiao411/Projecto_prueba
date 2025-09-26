@@ -6,5 +6,4 @@ fun main() {
 
     //Introdueix els 4 numeros
     var enter1 : Int = scanner.nextLine().toInt()
-
 }

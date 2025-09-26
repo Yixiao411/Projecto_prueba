@@ -5,12 +5,16 @@ fun main() {
     //pagar cada començal.
     val scanner = Scanner(System.`in`)
 
-    //Llegeix el valor introduit
+    //Crear el variable per preu de sopar i les persones que van asistir
+    //Llegeix els valors introduit
     print("El preu del sopar: ")
     var preuSopar = scanner.nextLine().toFloat()
     print("Quantitat de persones: ")
     var numPersones = scanner.nextLine().toFloat()
 
+    //Calcula el preuFinal
+    var preuFinal = numPersones / preuSopar
+
     //Valor final
-    println(numPersones / preuSopar)
+    println("Cadascu ha de pagar: $preuFinal")
 }
